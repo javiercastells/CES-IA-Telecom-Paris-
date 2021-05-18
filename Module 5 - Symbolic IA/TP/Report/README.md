@@ -81,6 +81,6 @@ References:
 
 
 
-<p align="center">
-  <img src="ScreenShots\OntologySchema.png">
-</p>
+
+  <img src="ScreenShots/OntologySchema.png"/>
+
