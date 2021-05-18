@@ -79,3 +79,8 @@ References:
  - AI for Good - https://ai4good.org/what-we-do/sdg-data-catalog/
  - AI Love SDGs - https://dasci.es/ia4ods/inner-ods-15.html 
 
+
+
+<p align="center">
+  <img src="ScreenShots\OntologySchema.png">
+</p>
