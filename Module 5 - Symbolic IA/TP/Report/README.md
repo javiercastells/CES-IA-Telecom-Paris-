@@ -80,7 +80,8 @@ References:
  - AI Love SDGs - https://dasci.es/ia4ods/inner-ods-15.html 
 
 
-
+ScreenShots:
+------------
 ![Visual Representation Ontology](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
 
 ![Full ontology graph (asserted)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/FullOntologyGraph_asserted.png)
