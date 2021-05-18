@@ -85,7 +85,7 @@ References:
 
 ![Full ontology graph (asserted)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/FullOntologyGraph_asserted.png)
 
-![Full ontology graph (inferred)](Visual Representation Ontology](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/FullOntologyGraph_inferred.png)
+![Full ontology graph (inferred)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/FullOntologyGraph_inferred.png)
 
 ![Class Hierarchy (asserted)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/ClassHierarchy_asserted.png)
 
