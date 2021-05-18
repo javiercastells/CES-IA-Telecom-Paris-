@@ -81,6 +81,5 @@ References:
 
 
 
-
-  <img src="ScreenShots/OntologySchema.png"/>
+![Ontology Schema](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
 
