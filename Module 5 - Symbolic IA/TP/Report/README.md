@@ -81,5 +81,20 @@ References:
 
 
 
-![Ontology Schema](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Visual Representation Ontology](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Full ontology graph (asserted)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Full ontology graph (inferred)]Visual Representation Ontology](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Class Hierarchy (asserted)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Class Hierarchy (inferred)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Object property hierarchy (asserted)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Object property hierarchy (inferred) ](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Data property hierarchy (assert, same as inferred)](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Assignation of the Data property of the CropType class](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![FruitsCropType class](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![FruitsCropType class](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+![Visual Representation Ontology](https://github.com/javiercastells/CES-IA-Telecom-Paris-/blob/main/Module%205%20-%20Symbolic%20IA/TP/Report/ScreenShots/OntologySchema.png)
+
+
+
+
 
