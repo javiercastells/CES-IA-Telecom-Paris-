@@ -9,13 +9,19 @@ This ontology has been developed by the following CES IA students at Telecom Evo
 -	Javier Castells Alvarez-Ossorio (castells.javier@gmail.com)
 
 
-
 License:
 --------
 This ontology use de creative Commons Attribution 4.0 (CC BY 4.0) where You are free to:
 
   - Share: copy and redistribute the material in any medium or format.
   - Adapt: remix, transform, and build upon the material for any purpose, even commercially.
+
+URL of the Ontology:
+--------------------
+In the next URL (Github repository) you can find the OWL file created by Protégé application (V.5.5.0):
+
+https://github.com/javiercastells/CES-IA-Telecom-Paris-/tree/main/Module%205%20-%20Symbolic%20IA/TP/Report
+
 
 
 Ontology Description:
@@ -44,14 +50,25 @@ In order to control the water needs of a crop, we start by deducing the differen
 As we go deeper into these 4 entities and their relationships, we see that to evaluate whether or not we have enough water for a crop depends entirely on the type of crop and the ground on which it is cultivated, so this information is necessary in our study. Following this new idea we see that what is important does not depend on the consumers (external or internal) but on whether we have the necessary water at any given moment for the crop cultivated. This makes us rethink the previous entities and regenerate a new approach to our ontology in which we will define 6 fundamental elements:
 1.	__Characteristics of the crop (CropCharacteristic entity):__ This gives an idea of the type of crop that has been used and the physical and mineral characteristics of the           ground on which it has been cultivated, so we will know the water needs it requires. This information is known from the agricultural and mineralogical point of view and         does not depend on any external factor.
 2.	__The state of external and internal elements that directly influence the crop:__
-      * Weather Forecasting (WeatherPrediction entity)
       * State of the climate (climatologyState entity)
       * State of the crop (cropStateMeter entity): e.g. state of growth of the crop, soil condition
 
-3.	__Elements measuring__ the different states above (Meter entity)
-4.	__Useful information to know the water needs (UsefulInformation entity):__ it will determine the amount of water available and needed from the previous meters and the               characteristics of the crop.
-5.	__Water Suppliers (WaterSupplier entity)__
-6.	__Water Regulator (WaterQuantityRegulator entity):__ In charge of, knowing the useful information on water availability and needs, making water supply to the crop or not.
+3.	__Elements measuring__ the different states above (Meter entity):
+      * __Crop Water Meter:__ These are meters (sensors) that take measurements concerning how much water is available in the crop (for instance, how humid is the soil and the plants themselves).  
+      * __Climatology Water Meter:__ This is another kind of meters focusing on meteorological aspects, such as the quantity of rainwater, snow or even the perceived sun heat. 
+      * __Crop State Meter:__  A third kind of meters provide information about maturity of the plants, or even some of the land’s intrinsic characteristics (for instance, the structure and texture of the soil), that might also change in time.
+
+4.	__Useful information to know the water needs (UsefulInformation entity):__ it will determine the amount of water available and needed from the previous meters and the               characteristics of the crop:
+    *	Requirements Information: It represents information about the water requirements of the crop. These requirements will be defined by the crop's intrinsic characteristics,       such as: Crop Type, Ground Size, Soil Structure and Soil Texture. Additionally, this information is updated with measurements coming from the Crop State Meters. 
+    *	Available Water Information: It represents real time information about the available water in the crop. It is obtained thanks to the Crop Water Meters.
+    *	Weather Prediction: This is dynamic information about natural phenomena that affects the crop and that come from Climatology Water Meters.
+5.	__Water Regulator (WaterQuantityRegulator entity):__ In charge of, knowing the useful information on water availability and needs, making water supply to the crop or not.
+
+
+6.	__Water Suppliers (WaterSupplier entity)__:
+    *	Irrigation Channel
+    *	Sprinkler Irrigation
+
 
 With these elements we create a closed system in which, knowing the needs of the crop and the soil, theirs states at any given moment and the climatic factors (at any given moment and their prediction), we generate sufficient information to be able to generate a decision to provide water or not by the regulator.
 
